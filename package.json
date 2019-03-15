@@ -1,0 +1,29 @@
+{
+  "name": "dn-template-mota-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "dn test && dn build -e prod"
+  },
+  "author": {
+    "name": "Houfeng"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "dn-middleware-browser-sync": "^0.1.0",
+    "dn-middleware-clean": "^1.0.2",
+    "dn-middleware-copy": "^0.2.7",
+    "dn-middleware-lint": "^2.1.4",
+    "dn-middleware-server": "^1.0.15",
+    "dn-middleware-webpack": "^1.11.5",
+    "mota": "^3.0.9",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "todomvc-app-css": "^2.1.0",
+    "todomvc-common": "^1.0.4"
+  },
+  "dependencies": {
+    "mota": "^3.1.1"
+  }
+}

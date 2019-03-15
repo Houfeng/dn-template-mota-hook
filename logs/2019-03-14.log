@@ -1,0 +1,1244 @@
+[E][09:38:06] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][09:38:06] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 35ms #44749
+[L][09:38:06] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 8ms #44749
+[L][09:38:06] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 12ms #44749
+[L][09:38:07] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 74ms #44749
+[E][09:45:14] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][09:45:14] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 9ms #44749
+[L][09:45:14] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 8ms #44749
+[L][09:45:14] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 8ms #44749
+[L][09:45:14] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 62ms #44749
+[L][09:45:14] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" 4ms #44749
+[L][09:46:14] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" 5ms #44749
+[L][09:46:14] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" 5ms #44749
+[L][09:46:14] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" 71ms #44749
+[L][09:52:58] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #44749
+[L][09:52:58] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #44749
+[L][09:52:58] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 58ms #44749
+[L][10:00:42] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #44749
+[E][10:00:42] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][10:00:42] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #44749
+[L][10:00:42] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #44749
+[L][10:00:42] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 17ms #44749
+[L][10:00:42] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #44749
+[E][10:05:08] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][10:05:08] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #44749
+[L][10:05:08] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #44749
+[L][10:05:08] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #44749
+[L][10:05:08] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 65ms #44749
+[L][10:05:08] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #44749
+[L][10:05:08] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #44749
+[L][10:05:08] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 14ms #44749
+[L][10:05:08] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #44749
+[E][10:05:51] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][10:05:51] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #44749
+[L][10:05:51] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #44749
+[L][10:05:51] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #44749
+[L][10:05:51] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 64ms #44749
+[L][10:05:51] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #44749
+[L][10:05:51] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #44749
+[L][10:05:52] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 11ms #44749
+[L][10:05:52] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #44749
+[E][10:05:52] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][10:05:52] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #44749
+[L][10:05:52] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #44749
+[L][10:05:52] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #44749
+[L][10:05:52] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 64ms #44749
+[L][10:05:52] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #44749
+[L][10:05:52] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #44749
+[L][10:05:52] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 17ms #44749
+[L][10:05:53] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #44749
+[E][10:05:53] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][10:05:53] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #44749
+[L][10:05:53] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #44749
+[L][10:05:53] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #44749
+[L][10:05:53] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 60ms #44749
+[L][10:05:53] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #44749
+[L][10:05:53] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #44749
+[L][10:05:53] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #44749
+[L][10:05:53] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #44749
+[E][10:05:53] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][10:05:53] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #44749
+[L][10:05:53] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #44749
+[L][10:05:53] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #44749
+[L][10:05:53] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 65ms #44749
+[L][10:05:53] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #44749
+[L][10:05:53] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #44749
+[L][10:05:53] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 16ms #44749
+[L][10:05:53] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #44749
+[E][10:34:56] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][10:34:56] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #44749
+[L][10:34:56] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #44749
+[L][10:34:56] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #44749
+[L][10:34:56] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #44749
+[E][13:48:26] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][13:48:26] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 23ms #49907
+[L][13:48:27] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 16ms #49907
+[L][13:48:27] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 10ms #49907
+[L][13:48:27] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 72ms #49907
+[L][13:49:31] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #49907
+[L][13:49:31] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #49907
+[L][13:49:31] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #49907
+[L][13:49:31] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 16ms #49907
+[E][13:49:54] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][13:49:54] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 10ms #49907
+[L][13:49:54] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #49907
+[L][13:49:54] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #49907
+[L][13:49:55] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 69ms #49907
+[L][13:49:55] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #49907
+[L][13:49:55] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #49907
+[L][13:49:55] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 20ms #49907
+[E][13:50:00] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][13:50:00] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #49907
+[L][13:50:00] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #49907
+[L][13:50:00] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #49907
+[L][13:50:00] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #49907
+[L][13:50:00] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #49907
+[L][13:50:00] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #49907
+[L][13:50:00] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #49907
+[L][13:50:00] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #49907
+[E][13:50:01] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][13:50:01] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #49907
+[L][13:50:01] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #49907
+[L][13:50:01] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #49907
+[L][13:50:01] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 65ms #49907
+[L][13:50:01] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #49907
+[L][13:50:01] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #49907
+[L][13:50:02] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 21ms #49907
+[L][13:50:02] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #49907
+[E][13:54:57] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][13:54:57] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #49907
+[L][13:54:57] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #49907
+[L][13:54:57] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #49907
+[L][13:54:57] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #49907
+[L][13:54:57] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #49907
+[L][13:54:57] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #49907
+[L][13:54:57] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 16ms #49907
+[E][13:55:22] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][13:55:22] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 10ms #49907
+[L][13:55:22] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #49907
+[L][13:55:22] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #49907
+[L][13:55:22] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 72ms #49907
+[L][13:55:22] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #49907
+[L][13:55:22] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #49907
+[L][13:55:22] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 14ms #49907
+[E][13:56:07] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][13:56:07] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #49907
+[L][13:56:07] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #49907
+[L][13:56:07] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #49907
+[L][13:56:07] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 79ms #49907
+[L][13:56:07] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #49907
+[L][13:56:07] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #49907
+[L][13:56:07] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 18ms #49907
+[E][13:56:33] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][13:56:33] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #49907
+[L][13:56:33] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #49907
+[L][13:56:33] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #49907
+[L][13:56:33] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 68ms #49907
+[L][13:56:33] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #49907
+[L][13:56:33] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #49907
+[L][13:56:33] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #49907
+[L][13:56:33] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #49907
+[E][17:34:09] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][17:34:09] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 25ms #56340
+[L][17:34:09] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 14ms #56340
+[L][17:34:09] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 13ms #56340
+[L][17:34:09] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 83ms #56340
+[L][17:34:13] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #56340
+[L][17:34:13] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #56340
+[L][17:34:13] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #56340
+[L][17:34:13] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 15ms #56340
+[E][18:01:00] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][18:01:00] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 33ms #57301
+[L][18:01:00] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #57301
+[L][18:01:00] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 11ms #57301
+[L][18:01:01] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 76ms #57301
+[L][18:01:01] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #57301
+[L][18:01:01] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][18:01:01] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 24ms #57301
+[L][18:01:01] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[E][18:01:19] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][18:01:19] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][18:01:19] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][18:01:19] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][18:01:19] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 69ms #57301
+[L][18:01:19] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][18:01:19] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][18:01:19] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 18ms #57301
+[L][18:01:20] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[E][18:01:30] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][18:01:30] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][18:01:30] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #57301
+[L][18:01:30] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][18:01:30] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #57301
+[L][18:01:30] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[L][18:01:30] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][18:01:30] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 15ms #57301
+[E][18:01:52] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][18:01:52] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #57301
+[L][18:01:52] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #57301
+[L][18:01:52] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #57301
+[L][18:01:52] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #57301
+[L][18:01:52] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][18:01:52] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[L][18:01:52] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 20ms #57301
+[E][18:01:55] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][18:01:55] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #57301
+[L][18:01:55] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #57301
+[L][18:01:55] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][18:01:55] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 65ms #57301
+[L][18:01:55] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][18:01:55] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[L][18:01:56] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 20ms #57301
+[L][18:01:56] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[E][18:12:44] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][18:12:44] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #57301
+[L][18:12:44] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][18:12:44] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][18:12:44] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 64ms #57301
+[L][18:12:44] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][18:12:44] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][18:12:44] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 18ms #57301
+[L][18:12:44] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[E][20:00:02] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:00:02] GET /index.html ::1 . text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][20:00:02] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][20:00:02] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:00:02] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 60ms #57301
+[E][20:00:08] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:00:08] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #57301
+[L][20:00:08] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][20:00:08] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #57301
+[L][20:00:08] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 61ms #57301
+[E][20:00:09] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:00:09] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #57301
+[L][20:00:09] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #57301
+[L][20:00:09] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 10ms #57301
+[L][20:00:09] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 75ms #57301
+[L][20:00:09] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #57301
+[L][20:00:09] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 15ms #57301
+[L][20:00:09] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[L][20:00:09] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][20:00:09] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][20:00:09] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:00:09] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[E][20:01:32] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:01:32] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 11ms #57301
+[L][20:01:32] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][20:01:32] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:01:32] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 71ms #57301
+[E][20:01:32] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:01:32] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #57301
+[L][20:01:32] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 17ms #57301
+[L][20:01:32] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 16ms #57301
+[L][20:01:32] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 11ms #57301
+[L][20:01:32] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 11ms #57301
+[L][20:01:32] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 83ms #57301
+[L][20:01:32] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 15ms #57301
+[L][20:01:32] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][20:01:32] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 42ms #57301
+[L][20:01:32] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[E][20:01:39] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:01:39] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #57301
+[L][20:01:39] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][20:01:39] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #57301
+[L][20:01:39] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #57301
+[L][20:01:39] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][20:01:39] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[L][20:01:39] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[E][20:01:40] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:01:40] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #57301
+[L][20:01:40] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:01:40] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:01:40] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 68ms #57301
+[L][20:01:40] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:01:40] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #57301
+[L][20:01:40] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #57301
+[E][20:02:03] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:02:03] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:02:03] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #57301
+[L][20:02:03] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:02:03] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 70ms #57301
+[L][20:02:03] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][20:02:03] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[L][20:02:03] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 15ms #57301
+[L][20:02:03] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[E][20:04:21] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][20:04:21] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #57301
+[L][20:04:21] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #57301
+[L][20:04:21] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #57301
+[L][20:04:21] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 68ms #57301
+[L][20:04:21] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[L][20:04:21] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #57301
+[L][20:04:21] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #57301
+[L][20:04:21] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #57301
+[E][22:15:00] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:15:00] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 33ms #60907
+[L][22:15:00] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 15ms #60907
+[L][22:15:00] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 15ms #60907
+[L][22:15:00] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 73ms #60907
+[L][22:15:00] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #60907
+[L][22:15:00] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #60907
+[L][22:15:00] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #60907
+[L][22:15:00] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 19ms #60907
+[E][22:15:05] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:15:05] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #60907
+[L][22:15:05] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #60907
+[L][22:15:05] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #60907
+[L][22:15:05] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #60907
+[L][22:15:05] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #60907
+[L][22:15:05] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #60907
+[L][22:15:05] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 16ms #60907
+[L][22:15:06] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #60907
+[E][22:27:12] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:27:12] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 31ms #61533
+[L][22:27:12] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 14ms #61533
+[L][22:27:12] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 18ms #61533
+[L][22:27:12] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:27:12] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:27:12] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 80ms #61533
+[L][22:27:12] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 21ms #61533
+[L][22:27:12] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:27:15] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:27:15] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:27:15] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:27:15] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:27:15] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 64ms #61533
+[L][22:27:15] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:27:15] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:27:15] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 11ms #61533
+[L][22:27:15] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:27:58] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:27:58] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:27:58] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:27:58] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:27:58] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 64ms #61533
+[L][22:27:58] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:27:58] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:27:58] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[E][22:27:59] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:27:59] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:27:59] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:27:59] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #61533
+[L][22:27:59] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 74ms #61533
+[L][22:27:59] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:27:59] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 17ms #61533
+[L][22:27:59] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #61533
+[E][22:29:11] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:29:11] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:29:11] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 10ms #61533
+[L][22:29:11] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:29:11] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 83ms #61533
+[L][22:29:11] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:29:11] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:29:12] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 17ms #61533
+[E][22:29:12] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:29:12] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 12ms #61533
+[E][22:29:12] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:29:12] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:29:12] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:29:12] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:29:12] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #61533
+[L][22:29:12] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:29:12] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 23ms #61533
+[L][22:29:12] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:29:14] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:29:14] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:29:14] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:29:14] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:29:14] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #61533
+[L][22:29:14] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:29:14] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:29:14] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 17ms #61533
+[L][22:29:14] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:30:58] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:30:58] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #61533
+[L][22:30:58] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:30:58] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:30:58] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 66ms #61533
+[L][22:30:58] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:30:58] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:30:58] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:30:59] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:30:59] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:30:59] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:30:59] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:30:59] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 65ms #61533
+[L][22:30:59] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:30:59] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:30:59] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 24ms #61533
+[E][22:31:28] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:31:28] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:31:28] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:31:28] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:31:28] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 61ms #61533
+[L][22:31:28] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #61533
+[L][22:31:28] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:31:28] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:31:29] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:31:29] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:31:29] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:31:29] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:31:29] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 61ms #61533
+[L][22:31:29] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #61533
+[L][22:31:29] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:31:29] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 15ms #61533
+[E][22:31:31] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:31:31] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:31:31] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:31:31] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:31:31] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 68ms #61533
+[L][22:31:31] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:31:31] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:31:31] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 18ms #61533
+[E][22:31:32] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:31:32] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:31:32] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:31:32] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:31:32] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 64ms #61533
+[L][22:31:32] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #61533
+[L][22:31:32] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:31:32] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:31:33] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:31:33] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:31:33] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:31:33] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:31:33] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 68ms #61533
+[L][22:31:33] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:31:33] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:31:33] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 17ms #61533
+[L][22:31:33] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 11ms #61533
+[E][22:32:02] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:32:02] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:32:02] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:32:02] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:32:02] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 66ms #61533
+[L][22:32:02] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:32:02] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:32:02] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 16ms #61533
+[L][22:32:02] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:34:16] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:34:16] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:34:16] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:34:16] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:34:17] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 66ms #61533
+[L][22:34:17] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:34:17] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:34:17] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:34:17] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[E][22:35:50] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:35:50] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:35:50] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:35:50] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:35:50] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 75ms #61533
+[L][22:35:50] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:35:50] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:35:50] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 12ms #61533
+[E][22:35:50] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:35:50] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:35:50] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:35:50] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #61533
+[L][22:35:50] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 66ms #61533
+[L][22:35:50] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:35:50] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #61533
+[L][22:35:51] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 31ms #61533
+[E][22:35:52] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:35:52] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:35:52] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[L][22:35:52] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61533
+[L][22:35:52] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 63ms #61533
+[L][22:35:52] GET /js/common.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[L][22:35:52] GET /css/index.css.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 1ms #61533
+[L][22:35:52] GET /js/index.js.map ::1 . application/octet-stream 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 16ms #61533
+[L][22:35:52] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:37:18] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:37:18] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:37:18] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:37:18] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 8ms #61533
+[L][22:37:18] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 61ms #61533
+[L][22:37:18] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 2ms #61533
+[E][22:37:19] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:37:19] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 6ms #61533
+[L][22:37:19] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61533
+[L][22:37:19] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 5ms #61533
+[L][22:37:19] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 63ms #61533
+[L][22:37:19] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61533
+[E][22:41:01] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:41:01] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 67ms #61912
+[L][22:41:01] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 27ms #61912
+[L][22:41:01] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 30ms #61912
+[L][22:41:01] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 88ms #61912
+[L][22:41:01] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61912
+[E][22:41:05] The "chunk" argument must be one of type string or Buffer. Received type boolean
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type boolean
+    at validChunk (_stream_writable.js:258:10)
+    at Gunzip.Writable.write (_stream_writable.js:292:21)
+    at Gunzip.Writable.end (_stream_writable.js:579:10)
+    at zlibBuffer (zlib.js:89:10)
+    at asyncBufferWrapper (zlib.js:703:14)
+    at Promise.apply (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1185:26)
+    at Promise.promise.promiseDispatch (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:808:41)
+    at /Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:1411:14
+    at runSingle (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:137:13)
+    at flush (/Users/Houfeng/my/dev/dn-template-mota-hook/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+[L][22:41:05] GET /index.html ::1 http://localhost:8001/ text/html 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 9ms #61912
+[L][22:41:05] GET /js/common.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 4ms #61912
+[L][22:41:05] GET /css/index.css ::1 http://localhost:8001/ text/css 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 7ms #61912
+[L][22:41:05] GET /js/index.js ::1 http://localhost:8001/ application/x-javascript 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 72ms #61912
+[L][22:41:05] GET /favicon.ico ::1 http://localhost:8001/ image/x-icon 200 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" 3ms #61912
