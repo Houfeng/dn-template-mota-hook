@@ -1,6 +1,6 @@
 {
   "name": "dn-template-mota-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -17,13 +17,10 @@
     "dn-middleware-lint": "^2.1.4",
     "dn-middleware-server": "^1.0.15",
     "dn-middleware-webpack": "^1.11.5",
-    "mota": "^3.0.9",
+    "mota": "^3.1.3",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "todomvc-app-css": "^2.1.0",
     "todomvc-common": "^1.0.4"
-  },
-  "dependencies": {
-    "mota": "^3.1.1"
   }
 }

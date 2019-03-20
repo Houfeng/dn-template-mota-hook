@@ -28,8 +28,7 @@ export function Header() {
 
 export function List() {
   console.log('render list');
-  const { toggleAll, state, getFilterItems } = useModel(todoList,
-    p => state.showType != 'All' && p.endsWith('.completed'));
+  const { toggleAll, getFilterItems } = useModel(todoList);
   function onToggleAll(event) {
     toggleAll(event.target.checked);
   }
@@ -66,7 +65,7 @@ export function Footer() {
   console.log('render footer');
   const {
     state, getCompletedItems, getActiveItems, clearCompleted
-  } = useModel(todoList, p => p.endsWith('.completed'));
+  } = useModel(todoList);
   if (!state.items || state.items.length < 1) return '';
   const completedItems = getCompletedItems(),
     activeItems = getActiveItems();

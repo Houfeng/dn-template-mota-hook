@@ -5173,7 +5173,7 @@ module.exports = composition;
 /* 120 */
 /***/ (function(module, exports) {
 
-module.exports = {"name":"mota","version":"3.1.1"}
+module.exports = {"name":"mota","version":"3.1.3"}
 
 /***/ }),
 /* 121 */
@@ -5209,7 +5209,12 @@ function getter(info) {
 }
 
 function collect(nextState) {
-  if (owner.state) owner.state[2] = owner.buffer;
+  if (owner.state) {
+    var _owner$state$;
+
+    owner.state[2].length = 0;
+    (_owner$state$ = owner.state[2]).push.apply(_owner$state$, owner.buffer);
+  }
   owner.buffer = [];
   owner.state = nextState;
   return nextState;
@@ -5248,29 +5253,31 @@ function useObservable(factory, conditions) {
       update([].concat(state));
     }
   }
-  function distory() {
+  function destroy() {
     observer.off('change', setter);
     if (isNew) observer.clearReference();
   }
-  (0, _assign2.default)(state, [model, distory, []]);
+  (0, _assign2.default)(state, [model, destroy, []]);
   observer.off('get', getter);
   observer.on('get', getter);
   observer.on('change', setter);
   return collect(state);
 }
 
-function useModel(factory, conditions) {
+function useModel(factory, conditions, debug) {
   var _useObservable = useObservable(factory, conditions),
       model = _useObservable[0],
-      distory = _useObservable[1];
+      destroy = _useObservable[1],
+      deps = _useObservable[2];
 
   useEffect(function () {
-    return distory;
+    return destroy;
   }, []);
   //最后一个 useModel 在 mounted 后完成收集（最后一个有可能多收集）
   useLayoutEffect(function () {
     return collect();
   });
+  if (debug) debug({ model: model, deps: deps });
   return model;
 }
 
@@ -30091,11 +30098,8 @@ function Header() {
 function List() {
   console.log('render list');
 
-  var _useModel2 = (0, _mota.useModel)(todoList, function (p) {
-    return state.showType != 'All' && p.endsWith('.completed');
-  }),
+  var _useModel2 = (0, _mota.useModel)(todoList),
       toggleAll = _useModel2.toggleAll,
-      state = _useModel2.state,
       getFilterItems = _useModel2.getFilterItems;
 
   function onToggleAll(event) {
@@ -30152,9 +30156,7 @@ function Filters() {
 function Footer() {
   console.log('render footer');
 
-  var _useModel4 = (0, _mota.useModel)(todoList, function (p) {
-    return p.endsWith('.completed');
-  }),
+  var _useModel4 = (0, _mota.useModel)(todoList),
       state = _useModel4.state,
       getCompletedItems = _useModel4.getCompletedItems,
       getActiveItems = _useModel4.getActiveItems,
